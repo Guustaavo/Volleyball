@@ -9,7 +9,7 @@ var pontosTime2 = 0;
 
 var gameOver = false;
 
-function contador() {
+export function contador() {
 
     while (gameOver === false) {
         console.clear();
@@ -46,5 +46,3 @@ function contador() {
     console.log("Placar Final: Time 1 [ " + setsTime1 + " ] X [ " + setsTime2 + " ] Time 2");
     console.log("Sets jogados: " + sets);
 }
-
-contador();
